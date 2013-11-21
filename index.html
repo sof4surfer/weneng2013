@@ -1,93 +1,491 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="UTF-8">
-			<title>Erstes Projekt mit Bootstrap</title>
-			<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
-			
-		</head>
-		<body>
-			<div class="container">
-				<h1><a href="#">Seite 1</a></h1>
-				<div class="navbar">
-					<div class="navbar-inner">
-						<div class="container">
-						<ul class="nav">
-							<li class="active"><a href="#">Home</a> </li>
-							<li><a href="#">Navigation1</a></li>
-							<li><a href="#">Navigation2</a></li>
-							<li><a href="#">Navigation3</a></li>
-							<li><a href="#">Navigation4</a></li>
-							<li><a href="#">Navigation5</a></li>
-						</ul>
+<html lang="de">
+<head>
+  <title> </title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link type="text/css" rel="stylesheet" href="tab.css" />
+</head>
+
+<body>
+		<div id="erkl">
+			<p>I&nbsp;&nbsp;=&nbsp;Inline Element<br />B&nbsp;=&nbsp;Block Element</p>	
+			<div class="sem"><div id="g"></div> <div class="t">semantisch</div></div>
+			<div class="sem"><div id="r"></div> <div class="t">nicht semantisch</div></div>
+		</div>
+        <div id="haupt">
+				
+                <div id="tabkopf">Hausaufgabe: Web-Engineering I - Kapitel 6</div>
+				
+                <div id="tabbe">
+                        <div class="s1"><p>Element</p></div>
+                        <div class="s2"><p>Element Beschreibung</p></div>
+                        <div class="s3"><p>B or I</p></div>
+                        <div class="s4"><p>S?</p></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p><p>&lt;a&gt;</p></div>
+                        <div class="sz2"><p>Verweis (Hyperlink) und Anker f&uuml;r Verweise</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;abbr&gt;</p></div>
+                        <div class="sz2"><p>Abk&uuml;rzung</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;acronym&gt;</p></div>
+                        <div class="sz2"><p>Akronym</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;address&gt;</p></div>
+                        <div class="sz2"><p>Kontaktangabe zum Autor eines Inhalts (Credits)</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;area&gt;</p></div>
+                        <div class="sz2"><p>Verweis-sensitiver Bereich in einer Image-Map-Grafik</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;b&gt;</p></div>
+                        <div class="sz2"><p>Stilistische Hervorhebung im Text (&uuml;blicherweise fett dargestellt)</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="rot"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;base&gt;</p></div>
+                        <div class="sz2"><p>Basis-URL f&uuml;r Referenzen</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;bdo&gt;</p></div>
+                        <div class="sz2"><p>Richtungs&auml;nderung bei bidirektionalem Text</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;big&gt;</p></div>
+                        <div class="sz2"><p>Gro&szlig;schrift</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="rot"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;blockquote&gt;</p></div>
+                        <div class="sz2"><p>Zitat in Form eines eigenen Textabsatzes</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;body&gt;</p></div>
+                        <div class="sz2"><p>Inhaltsbereich eines HTML-Dokuments</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;br&gt;</p></div>
+                        <div class="sz2"><p>Erzwungener Zeilenumbruch an der betreffenden Stelle</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;button&gt;</p></div>
+                        <div class="sz2"><p>Schaltfl&auml;che in einem Formular</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;caption&gt;</p></div>
+                        <div class="sz2"><p>Tabellen&uuml;berschrift / -unterschrift</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;cite&gt;</p></div>
+                        <div class="sz2"><p>Zitat innerhalb eines Absatzes</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;code&gt;</p></div>
+                        <div class="sz2"><p>Quelltext-Auszug innerhalb eines Absatzes</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;col&gt;</p></div>
+                        <div class="sz2"><p>Tabellenspalte</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;colgroup&gt;</p></div>
+                        <div class="sz2"><p>Gruppe von Tabellenspalten</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;dd&gt;</p></div>
+                        <div class="sz2"><p>Definition, Beschreibung, detaillierter Inhalt zu einem dt-Element</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;del&gt;</p></div>
+                        <div class="sz2"><p>gel&ouml;schter Inhalt (&Auml;nderungsmarkierung)</p></div>
+                        <div class="sz3"><p>B/I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;dfn&gt;</p></div>
+                        <div class="sz2"><p>Definition innerhalb eines Absatzes</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;div&gt;</p></div>
+                        <div class="sz2"><p>Allgemeiner Bereich</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;dl&gt;</p></div>
+                        <div class="sz2"><p>Liste mit dt- und dd-Elementen, f&uuml;r Definitionslisten, Dialoge usw.</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;dt&gt;</p></div>
+                        <div class="sz2"><p>Zu definierender Ausdruck in einer Definitionsliste, Sprechername in einem Dialog usw.</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;em&gt;</p></div>
+                        <div class="sz2"><p>emphatischer Ausdruck innerhalb eines Absatzes (z.B. &uuml;berspitzte Formulierung)</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;fieldset&gt;</p></div>
+                        <div class="sz2"><p>Gruppe von Elementen in einem Formular, Reiter in einem Dialog</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;form&gt;</p></div>
+                        <div class="sz2"><p>Formular, Dialog</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;h1&gt;</p></div>
+                        <div class="sz2"><p>&Uuml;berschrift 1. Ordnung</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;h2&gt;</p></div>
+                        <div class="sz2"><p>&Uuml;berschrift 2. Ordnung</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;h3&gt;</p></div>
+                        <div class="sz2"><p>&Uuml;berschrift 3. Ordnung</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;h4&gt;</p></div>
+                        <div class="sz2"><p>&Uuml;berschrift 4. Ordnung</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;h5&gt;</p></div>
+                        <div class="sz2"><p>&Uuml;berschrift 5. Ordnung</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;h6&gt;</p></div>
+                        <div class="sz2"><p>&Uuml;berschrift 6. Ordnung</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;head&gt;</p></div>
+                        <div class="sz2"><p>Kopfbereich eines HTML-Dokuments</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;hr&gt;</p></div>
+                        <div class="sz2"><p>Trennlinie</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;html&gt;</p></div>
+                        <div class="sz2"><p>Dokumentelement von HTML-Dokumenten, schlie&szlig;t das gesamte Dokument ein</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;i&gt;</p></div>
+                        <div class="sz2"><p>spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom (&uuml;blicherweise kursiv dargestellt)</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="rot"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;img&gt;</p></div>
+                        <div class="sz2"><p>Referenzierte und eingebettete Grafik</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;input&gt;</p></div>
+                        <div class="sz2"><p>Formularelement, verwendbar f&uuml;r diverse Typen wie Eingabefelder, Schaltfl&auml;chen, Auswahlfelder usw.</p>
 						</div>
-					</div>
-				</div>
-				<div class="hero-unit">
-					<h1>Feld 1</h1>
-					<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-				   	<a href="#" class="btn">Button</a>
-				</div>
-				<div class="row">
-					<div class="span2">
-						<p>Navigation</p>
-						<ul class="nav nav-list">
-							<li class="nav-header">Überschrift 1</li>
-							<li class="active"><a href="#">Link 1</a></li>
-							<li><a href="#">Link 2</a></li>
-							<li><a href="#">Link 3</a></li>
-							<li><a href="#">Link 4</a></li>
-							<li class="nav-header">Überschrift 2</li>
-							<li><a href="#">Link 5</a></li>
-							<li><a href="#">Link 6</a></li>
-							<li><a href="#">Link 7</a></li>
-						</ul>
-					</div>
-					<div class="span10">
-						<h3>Überschrift 1</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-						<h3>Überschrift 2</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="span4">
-						<h4 class="muted text-center">Überschrift 2</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-						<a href="#" class="btn btn-success"><i class="icon-user icon-white"></i>Link</a>
-					</div>
-					<div class="span4">
-						<h4 class="text-error text-center">Überschrift 3</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-						<a href="#" class="btn btn-info"><i class="icon-tag icon-white"></i>Link</a>
-					</div>
-					<div class="span4">
-						<h4 class="text-info text-center">Überschrift 4</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo mi, ultrices eu ligula ac, condimentum vulputate felis. Etiam rutrum urna lorem, vel imperdiet lectus aliquam placerat. 
-				   		Aenean ac malesuada velit, vulputate tempus dolor. Sed elementum iaculis justo, et tempor est volutpat eget. Vivamus pharetra placerat ultricies. In fermentum convallis dictum. Sed magna justo, egestas non tellus vitae, 
-				   		dignissim adipiscing nibh. Duis eu dui tristique, iaculis ipsum vel, hendrerit orci.</p>
-						<a href="#" class="btn btn-inverse"><i class="icon-plane icon-white"></i>Link</a>
-					</div>
-				</div>	
-			</div>
-		
-			<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-			<script src="js/bootstrap.js"></script>
-		</body>
-	</html>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;ins&gt;</p></div>
+                        <div class="sz2"><p>Eingef&uuml;gter Inhalt (&Auml;nderungsmarkierung)</p></div>
+                        <div class="sz3"><p>B/I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;kbd&gt;</p></div>
+                        <div class="sz2"><p>Darstellung eines &uuml;ber Tastatur einzugebenden Textes im Text</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;label&gt;</p></div>
+                        <div class="sz2"><p>Beschriftungstext eines Formularfeldes</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;legend&gt;</p></div>
+                        <div class="sz2"><p>&Uuml;berschrift f&uuml;r eine fieldset-Gruppe von Elementen in einem Formular</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;li&gt;</p></div>
+                        <div class="sz2"><p>Listenpunkt in einer ul-, ol- oder menu-Liste</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;link&gt;</p></div>
+                        <div class="sz2"><p>Logische Beziehungen der aktuellen Webseite zu anderen Webseiten</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;map&gt;</p></div>
+                        <div class="sz2"><p>Bereich f&uuml;r verweis-sensitive Grafiken</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;meta&gt;</p></div>
+                        <div class="sz2"><p>Meta-Angabe f&uuml;r nicht im Inhalt sichtbare Dokumentinformationen oder f&uuml;r Anweisungen an den Webserver</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;noscript&gt;</p></div>
+                        <div class="sz2"><p>Bereich f&uuml;r Inhalte, die angezeigt werden, wenn JavaScript im Browser deaktiviert oder nicht verf&uuml;gbar ist</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;object&gt;</p></div>
+                        <div class="sz2"><p>Eingebettetes Objekt, geeignet f&uuml;r spezielle Multimedia-Objekte, Java-Applets usw.</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;ol&gt;</p></div>
+                        <div class="sz2"><p>Geordnete (z.B. nummerierte) Liste</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;optgroup&gt;</p></div>
+                        <div class="sz2"><p>Gruppe von Auswahlm&ouml;glichkeiten in einer Auswahlliste</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;option&gt;</p></div>
+                        <div class="sz2"><p>Auswahlm&ouml;glichkeit in einer Auswahlliste</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;p&gt;</p></div>
+                        <div class="sz2"><p>Textabsatz</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;param&gt;</p></div>
+                        <div class="sz2"><p>Parameter eines Objekts bei object-Element</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;pre&gt;</p></div>
+                        <div class="sz2"><p>Pr&auml;formatierter Text (alle Whitespace-Zeichen werden im Browser so dargestellt wie im Text enthalten)</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="rot"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;q&gt;</p></div>
+                        <div class="sz2"><p>W&ouml;rtliche Rede in einem Text</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;samp&gt;</p></div>
+                        <div class="sz2"><p>Beispieltext in einem dokumentierenden Text</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;script&gt;</p></div>
+                        <div class="sz2"><p>Scriptbereich f&uuml;r JavaScript und andere Scriptsprachen</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;select&gt;</p></div>
+                        <div class="sz2"><p>Auswahlliste in einem Formular</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;small&gt;</p></div>
+                        <div class="sz2"><p>kleiner dargestellter Text als Normalschrift</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="rot"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;span&gt;</p></div>
+                        <div class="sz2"><p>allgemeiner Bereich innerhalb eines Absatzes</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;strong&gt;</p></div>
+                        <div class="sz2"><p>stark betonter Inhalt im Text</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;style&gt;</p></div>
+                        <div class="sz2"><p>Bereich f&uuml;r Stylesheet-Definitionen, z.B. in CSS</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;sub&gt;</p></div>
+                        <div class="sz2"><p>Tiefgestellter Text</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;sup&gt;</p></div>
+                        <div class="sz2"><p>Hochgestellter Text</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;table&gt;</p></div>
+                        <div class="sz2"><p>Tabelle</p></div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;tbody&gt;</p></div>
+                        <div class="sz2"><p>Tabellenk&ouml;rper mit den eigentlichen Daten</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;td&gt;</p></div>
+                        <div class="sz2"><p>Tabellenzelle</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;textarea&gt;</p></div>
+                        <div class="sz2"><p>Mehrzeiliger Eingabebereich in einem Formular</p></div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;tfoot&gt;</p></div>
+                        <div class="sz2"><p>Fu&szlig;bereich in einer Tabelle, z.B. f&uuml;r summarische Daten</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;th&gt;</p></div>
+                        <div class="sz2"><p>Tabellenkopfzelle</p></div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;thead&gt;</p></div>
+                        <div class="sz2"><p>Kopfbereich einer Tabelle</div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;title&gt;</p></div>
+                        <div class="sz2"><p>Titel eines HTML-Dokuments</div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;tr&gt;</p></div>
+                        <div class="sz2"><p>Tabellenzeile</div>
+                        <div class="sz3"><p></p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;tt&gt;</p></div>
+                        <div class="sz2"><p>&raquo;Fernschreiber&laquo;-Text</div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_2">
+                        <div class="sz1"><p>&lt;ul&gt;</p></div>
+                        <div class="sz2"><p>Unsortierte Liste (Aufz&auml;hlungsliste)</div>
+                        <div class="sz3"><p>B</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div class="tabze_1">
+                        <div class="sz1"><p>&lt;var&gt;</p></div>
+                        <div class="sz2"><p>Variabler Name in einem dokumentierenden Text</div>
+                        <div class="sz3"><p>I</p></div>
+                        <div class="gruen"></div>
+                </div>
+                <div id="tabfo"></div>
+        </div>
+</body>
+</html>
