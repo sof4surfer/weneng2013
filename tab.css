@@ -159,7 +159,7 @@ body{
 }
 #erkl{
 				width:150px;
-				height:130px;
+				height:200px;
 				position:fixed;
 				background-color:white;
 				top:50px;
@@ -204,4 +204,10 @@ p{
                 font-size:23px;
 				margin-top:2px;
 	
+}
+#bild{
+		widtg:150px;
+		height:50px;
+		float:left
+}
 }
